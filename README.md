@@ -65,10 +65,4 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nishitsharma123&layout=compact&theme=dracula&hide_border=true" alt="nishitsharma123's Top Languages"/>
 </p>
 
----
 
-### ### 🐍 My Contribution Graph
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nishitsharma123-main/nishitsharma123/main/dist/github-contribution-grid-snake.svg" alt="Snake animation">
-</p>
