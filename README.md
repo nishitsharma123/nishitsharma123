@@ -69,6 +69,6 @@
 
 ### ### 🐍 My Contribution Graph
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://raw.githubusercontent.com/nishitsharma123/nishitsharma123/main/dist/github-contribution-grid-snake.svg" alt="Snake animation">
-</p>
+</p> -->
