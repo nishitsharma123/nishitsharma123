@@ -1,0 +1,32 @@
+# Name of the GitHub Action
+name: Generate Snake Animation
+
+# Controls when the action will run
+on:
+  # Run automatically every 6 hours
+  schedule:
+    - cron: "0 */6 * * *"
+  
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Generates the snake animation
+      - uses: Platane/snk@v3
+        with:
+          # Your GitHub username
+          github_user_name: nishitsharma123
+          
+          # The output file for the animation, must match the path in your README
+          outputs: dist/github-contribution-grid-snake.svg
+        env:
+          # A token with read access to your profile is required
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
